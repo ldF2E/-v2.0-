@@ -23,7 +23,7 @@
 
 
 ## 示例代码
-
+<pre>
 <div class="backstage-blocksEditor-wrap" data-wrap-type="1" data-storage="0" data-blocksEditor-type="phoenix_blocks_text">
 	<div class="text">text</div>
 </div>
@@ -49,3 +49,4 @@
 	    console.log($("#siteblocks-setting-wrap-${componentBlock.settingId!} .banner").length)
 	});
 [/@web_javascript]
+</pre>
