@@ -23,30 +23,5 @@
 
 
 ## 示例代码
-<pre>
-<div class="backstage-blocksEditor-wrap" data-wrap-type="1" data-storage="0" data-blocksEditor-type="phoenix_blocks_text">
-	<div class="text">text</div>
-</div>
+	[demo.html](demo.html)
 
-<div class="backstage-blocksEditor-wrap" data-wrap-type="1" data-storage="0" data-blocksEditor-type="phoenix_blocks_button">
-	<div class="backstage-componet">
-        <div class="backstage-componet-bd">
-            <a class="blocks-button" href="javascript:;">SUBMIT</a>
-		</div>
-	</div>
-</div>
-
-<div class="backstage-blocksEditor-wrap" data-wrap-type="1" data-storage="0" data-blocksEditor-type="phoenix_blocks_image">
-	<div class="backstage-componet">
-        <div class="backstage-componet-bd">
-            <a class="blocks-image" href="javascript:;"><img src="http://a0.leadongcdn.cn/cloud/jnBnkKRqjSijpijn/MACHINERY8.png" alt="" title=""></a>
-		</div>
-	</div>
-</div>
-
-[@web_javascript]
-	$(function() {
-	    console.log($("#siteblocks-setting-wrap-${componentBlock.settingId!} .banner").length)
-	});
-[/@web_javascript]
-</pre>
