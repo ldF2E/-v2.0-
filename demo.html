@@ -34,7 +34,9 @@
 
 //脚本调用
 [@web_javascript]
+(function(window, $ , undefined){
 	$(function() {
-	    console.log($("#siteblocks-setting-wrap-${componentBlock.settingId!} .banner").length)
+	    window._block_namespaces_[name].init();
 	});
+})(window,jQuery);
 [/@web_javascript]
