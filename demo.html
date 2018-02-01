@@ -36,7 +36,7 @@
 </div>
 
 //脚本调用
-[@web_javascript]
+[@web_javascript collect="true" pm_script="${componentBlock.widgetClass!}" jumpTo="${settingId!}"]
     (function(window, $ , undefined){
         $(function() {
              if(window._block_namespaces_){
