@@ -144,9 +144,13 @@ include可以在模板中插入另外一个FreeMarker模板文件（由路径参
 ## 如何创建一个应用
 
 ![image](http://a0.leadongcdn.cn/cloud/iiBqiKimRijSmpprnnjq/chuangjian.png)  
-### 创建区块
-![image](http://a0.leadongcdn.cn/cloud/iqBqiKimRijSmpprinjo/qukuai.png)
-下图为填写的示例字段
+
+### 创建区块  
+
+![image](http://a0.leadongcdn.cn/cloud/iqBqiKimRijSmpprinjo/qukuai.png)  
+
+下图为填写的示例字段  
+
 ![image](http://a0.leadongcdn.cn/cloud/ilBqiKimRijSmpprmljq/qukuai.png)
 
 ![image](http://a0.leadongcdn.cn/cloud/irBqiKimRijSmpjirljo/qukuaib.png)
@@ -155,8 +159,10 @@ include可以在模板中插入另外一个FreeMarker模板文件（由路径参
 
 ![image](http://a0.leadongcdn.cn/cloud/ioBqiKimRijSmpprrnjo/qukuai.png)
 
-![image](http://a0.leadongcdn.cn/cloud/ijBqiKimRijSmppronjq/qukuai.png)
+![image](http://a0.leadongcdn.cn/cloud/ijBqiKimRijSmppronjq/qukuai.png)  
+
 保存完毕之后，包裹的标签里会自动生成一个data-auto_uuid属性
+
 ![image](http://a0.leadongcdn.cn/cloud/irBqiKimRijSmpprlnjq/qukuai.png)
 
 ![image](http://a0.leadongcdn.cn/cloud/imBqiKimRijSmpprknjo/qukuai.png)
@@ -176,21 +182,26 @@ include可以在模板中插入另外一个FreeMarker模板文件（由路径参
 ![image](http://a0.leadongcdn.cn/cloud/ijBqiKimRijSmpprnojq/qukuai.png)
 
 ### 创建组件
+
 ![image](http://a0.leadongcdn.cn/cloud/ikBqiKimRijSmpproojq/zujian.png)
 
 ![image](http://a0.leadongcdn.cn/cloud/inBqiKimRijSmpprpojq/zujian.png)
 
-![image](http://a0.leadongcdn.cn/cloud/ilBqiKimRijSmpprqojq/zujian.png)
+![image](http://a0.leadongcdn.cn/cloud/ilBqiKimRijSmpprqojq/zujian.png)  
+
 若在“组件设置”中新建默认html文件，则文件名为“default.html”  
-若在“前端展示”中新建默认html文件，则文件名为“view_default.html” 
+若在“前端展示”中新建默认html文件，则文件名为“view_default.html”   
+
 ![image](http://a0.leadongcdn.cn/cloud/ioBqiKimRijSmpprmojq/zujian.png)
 
 ![image](http://a0.leadongcdn.cn/cloud/ijBqiKimRijSmpnilmjq/zujian.png)
 
 ![image](http://a0.leadongcdn.cn/cloud/ikBqiKimRijSmpninmjq/zujian.png)
 
-此时在下方开发中的组件中可以看到我们的测试组件
-![image](http://a0.leadongcdn.cn/cloud/iiBqiKimRijSmpnikmjq/zujian.png)
+此时在下方开发中的组件中可以看到我们的测试组件  
+
+![image](http://a0.leadongcdn.cn/cloud/iiBqiKimRijSmpnikmjq/zujian.png)  
+
 ## 组件开发攻略
 	### 组件后台设置项
 	### html（freemaker）代码
@@ -258,23 +269,35 @@ include可以在模板中插入另外一个FreeMarker模板文件（由路径参
 ### 静态资源 css js 与 图片管理
 css与js的创建：
 - 可以创建一个css或js文件，可以将代码拷到该文件中
-- 可以直接上传一个本地的css或js文件
-![image](http://a0.leadongcdn.cn/cloud/ioBqiKimRijSmpprrnjo/qukuai.png)
-图片管理
-![image](http://a0.leadongcdn.cn/cloud/iqBqiKimRijSmpqiorjo/aa.png)
-![image](http://a0.leadongcdn.cn/cloud/ioBqiKimRijSmpqinrjo/bb.png)
+- 可以直接上传一个本地的css或js文件  
 
-### css与js引用
+
+![image](http://a0.leadongcdn.cn/cloud/ioBqiKimRijSmpprrnjo/qukuai.png)
+
+图片管理
+
+![image](http://a0.leadongcdn.cn/cloud/iqBqiKimRijSmpqiorjo/aa.png)  
+
+![image](http://a0.leadongcdn.cn/cloud/ioBqiKimRijSmpqinrjo/bb.png)  
+
+
+### css与js引用  
+
 ![image](http://a0.leadongcdn.cn/cloud/irBqiKimRijSmpprlnjq/qukuai.png)
 
 ### 静态模板与动态数据模板
 静态模板  
-![image](http://a0.leadongcdn.cn/cloud/ijBqiKimRijSmppronjq/qukuai.png)
-动态模板  
-![image](http://a0.leadongcdn.cn/cloud/irBqiKimRijSmppiqijq/dt.png)
+
+![image](http://a0.leadongcdn.cn/cloud/ijBqiKimRijSmppronjq/qukuai.png)  
+
+动态模板   
+
+![image](http://a0.leadongcdn.cn/cloud/irBqiKimRijSmppiqijq/dt.png)  
+
 ### 国际化文本
 Leadong区块的国际化标记可以帮助我们使用多个语言发布应用。
-在标签内部插入生成的代码实现
+在标签内部插入生成的代码实现  
+
 ![image](http://a0.leadongcdn.cn/cloud/inBqiKimRijSmpqinmjq/guojihua.png)
 ![image](http://a0.leadongcdn.cn/cloud/iqBqiKimRijSmpqiqmjq/guojihua1.png)
 ![image](http://a0.leadongcdn.cn/cloud/ioBqiKimRijSmpqiomjq/guojihua2.png)
