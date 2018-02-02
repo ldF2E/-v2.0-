@@ -155,11 +155,11 @@ include可以在模板中插入另外一个FreeMarker模板文件（由路径参
 
 ![image](/images/区块-2-1.png)  
 
-![image](http://a0.leadongcdn.cn/cloud/ipBqiKimRijSmpprjnjo/qukuai.png)  
+![image](/images/区块-2-2-1.png)  
 
 ![image](http://a0.leadongcdn.cn/cloud/ioBqiKimRijSmpprrnjo/qukuai.png)  
 
-![image](http://a0.leadongcdn.cn/cloud/ijBqiKimRijSmppronjq/qukuai.png)  
+![image](/images/区块-2-3-1.png)  
 
 保存完毕之后，包裹的标签里会自动生成一个data-auto_uuid属性
 
@@ -167,11 +167,11 @@ include可以在模板中插入另外一个FreeMarker模板文件（由路径参
 
 ![image](http://a0.leadongcdn.cn/cloud/imBqiKimRijSmpprknjo/qukuai.png)
 
-![image](http://a0.leadongcdn.cn/cloud/irBqiKimRijSmpprjqjq/qukuai.png)
+![image](/images/区块-3-1.png)
 
-![image](http://a0.leadongcdn.cn/cloud/ikBqiKimRijSmpprnqjq/qukuai.png)
+![image](/images/区块-3-2.png)
 
-![image](http://a0.leadongcdn.cn/cloud/imBqiKimRijSmppriqjo/qukuai.png)
+![image](/images/区块-3-3.png)
 
 如下图，生成了三个可编辑的模块
 
@@ -179,7 +179,7 @@ include可以在模板中插入另外一个FreeMarker模板文件（由路径参
 
 ![image](http://a0.leadongcdn.cn/cloud/iiBqiKimRijSmpprlojq/qukuai.png)
 
-![image](http://a0.leadongcdn.cn/cloud/ijBqiKimRijSmpprnojq/qukuai.png)
+![image](/images/区块-3-4-3.png)
 
 ### 创建组件
 
@@ -278,7 +278,7 @@ css与js的创建：
 
 ![image](http://a0.leadongcdn.cn/cloud/iqBqiKimRijSmpqiorjo/aa.png)  
 
-![image](http://a0.leadongcdn.cn/cloud/ioBqiKimRijSmpqinrjo/bb.png)  
+![image](/images/bb.png)  
 
 
 ### css与js引用  
@@ -288,7 +288,7 @@ css与js的创建：
 ### 静态模板与动态数据模板
 静态模板  
 
-![image](http://a0.leadongcdn.cn/cloud/ijBqiKimRijSmppronjq/qukuai.png)  
+![image](/images/区块-2-3-1.png)   
 
 动态模板   
 
@@ -299,7 +299,7 @@ Leadong区块的国际化标记可以帮助我们使用多个语言发布应用�
 在标签内部插入生成的代码实现  
 
 ![image](http://a0.leadongcdn.cn/cloud/inBqiKimRijSmpqinmjq/guojihua.png)
-![image](http://a0.leadongcdn.cn/cloud/iqBqiKimRijSmpqiqmjq/guojihua1.png)
+![image](/images/国际化1.png)  
 ![image](http://a0.leadongcdn.cn/cloud/ioBqiKimRijSmpqiomjq/guojihua2.png)
 
 
