@@ -153,7 +153,7 @@ include可以在模板中插入另外一个FreeMarker模板文件（由路径参
 
 ![image](http://a0.leadongcdn.cn/cloud/ilBqiKimRijSmpprmljq/qukuai.png)  
 
-![image](http://a0.leadongcdn.cn/cloud/irBqiKimRijSmpjirljo/qukuaib.png)  
+![image](/images/区块-2-1.png)  
 
 ![image](http://a0.leadongcdn.cn/cloud/ipBqiKimRijSmpprjnjo/qukuai.png)  
 
