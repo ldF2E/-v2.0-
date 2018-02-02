@@ -32,5 +32,19 @@
     </div>
 </div>
 
-//脚本调用 [@web_javascript] (function(window, $ , undefined){ $(function() { if(window._block_namespaces_){ if(!window._block_namespaces_['headerStyle']){ return; } setTimeout(function(){ window._block_namespaces_['headerStyle'].slider({blockId:'#siteblocks-setting-wrap-${settingId!}'});
-},100) } }); })(window,jQuery); [/@web_javascript]
+
+//脚本调用
+[@web_javascript collect="true" pm_script="${componentBlock.widgetClass!}" jumpTo="${settingId!}"]
+    (function(window, $ , undefined){
+        $(function() {
+             if(window._block_namespaces_){
+                 if(!window._block_namespaces_['headerStyle']){
+                 	return;
+                 }
+                 setTimeout(function(){
+                 	window._block_namespaces_['headerStyle'].slider({blockId:'#siteblocks-setting-wrap-${settingId!}'});
+                 },100)    
+             }
+        });
+    })(window,jQuery);
+[/@web_javascript]
