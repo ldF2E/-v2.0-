@@ -1,39 +1,37 @@
-//区块标识id
-#siteblocks-setting-wrap-${settingId!}
-
-//图片集、幻灯片模块
+//区块标识id #siteblocks-setting-wrap-${settingId!} //图片集、幻灯片模块
 <div class="backstage-blocksEditor-wrap" data-wrap-type="1" data-relate-appId="MTAUpfKKKLVg" data-storage="1" data-blocksEditor-type="phoenix_blocks_gallery">
-	[#include 'gallery.html' /]
+    [#include 'gallery.html' /]
 </div>
 
 //导航模块
 <div class="backstage-blocksEditor-wrap" data-wrap-type="1" data-relate-appId="MRAUpfKKpsgB" data-storage="1" data-blocksEditor-type="phoenix_blocks_navigation">
-	[#include 'nav.html' /]
+    [#include 'nav.html' /]
 </div>
 
 
 //文字模块
 <div class="backstage-blocksEditor-wrap" data-wrap-type="1" data-storage="0" data-blocksEditor-type="phoenix_blocks_text">
-	<div class="text">text</div>
+    <div class="text">text</div>
 </div>
 
 //按钮模块
 <div class="backstage-blocksEditor-wrap" data-wrap-type="1" data-storage="0" data-blocksEditor-type="phoenix_blocks_button">
-	<div class="backstage-componet">
+    <div class="backstage-componet">
         <div class="backstage-componet-bd">
             <a class="blocks-button" href="javascript:;">SUBMIT</a>
-		</div>
-	</div>
+        </div>
+    </div>
 </div>
 
 //图片模块
 <div class="backstage-blocksEditor-wrap" data-wrap-type="1" data-storage="0" data-blocksEditor-type="phoenix_blocks_image">
-	<div class="backstage-componet">
+    <div class="backstage-componet">
         <div class="backstage-componet-bd">
             <a class="blocks-image" href="javascript:;"><img src="http://a0.leadongcdn.cn/cloud/jnBnkKRqjSijpijn/MACHINERY8.png" alt="" title=""></a>
-		</div>
-	</div>
+        </div>
+    </div>
 </div>
+
 
 //脚本调用
 [@web_javascript collect="true" pm_script="${componentBlock.widgetClass!}" jumpTo="${settingId!}"]
