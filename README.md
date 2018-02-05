@@ -208,13 +208,6 @@ include可以在模板中插入另外一个FreeMarker模板文件（由路径参
 
 ![image](http://a0.leadongcdn.cn/cloud/iiBqiKimRijSmpnikmjq/zujian.png)  
 
-## 组件开发攻略
-	### 组件后台设置项
-	### html（freemaker）代码
-	### 静态资源 css js 与 图片管理
-	### css与js引用
-	### 国际化文本
-
 ## 区块开发攻略
 ### html（freemaker）代码
 ```
